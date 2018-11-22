@@ -1,4 +1,4 @@
-int nDruppels = 60; // number of drops on the screen
+int nDruppels = 20; // number of drops on the screen
 int z = 255; // voor de druppel
 
 class Druppel {  

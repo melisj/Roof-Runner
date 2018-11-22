@@ -41,7 +41,7 @@ class dayNight {
 
   void update() {
 
-    cycleX += 10.5; //snelheid van de zon/maan 
+    cycleX += 3.5; //snelheid van de zon/maan 
     if (cycleX >= width + sun.width * 2) { //als de zon/maan onder is verandert de plaats
       cycleX = -150;
       day = !day; //maak dag niet dag
